@@ -15,8 +15,8 @@ void PrintArray(int[] col){
 
 int MinMaxDiff(int[] array){
     int max = array[0];
-    int min = array[1];
-    for(int i = 1; i < array.Length; i++){
+    int min = array[0];
+    for(int i = 0; i < array.Length; i++){
         if (array[i]>max) max = array[i];
         if (array[i]<min) min = array[i];
     }
